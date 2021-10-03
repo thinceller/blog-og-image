@@ -129,7 +129,7 @@ export function getHtml(parsedReq: ParsedRequest) {
         <div>
             <div class="spacer">
             <div class="logo-wrapper">
-                ${getImage('https://blog-og-image-tau.vercel.app/avatar.jpg')}
+                ${getImage('https://thinceller-blog-og-image.vercel.app/avatar.jpg')}
             </div>
             <div class="spacer">
             <div class="heading">${emojify(
