@@ -80,12 +80,6 @@ function getCss(theme: string, fontSize: string) {
         border-radius: 50%;
     }
 
-    .plus {
-        color: #BBB;
-        font-family: Times New Roman, Verdana;
-        font-size: 100px;
-    }
-
     .spacer {
         margin: 150px;
     }
@@ -98,7 +92,7 @@ function getCss(theme: string, fontSize: string) {
     }
 
     .heading {
-        font-family: 'Noto Sans JP, Inter', sans-serif;
+        font-family: 'Noto Sans JP', 'Inter', sans-serif;
         font-size: ${sanitizeHtml(fontSize)};
         font-style: normal;
         color: ${foreground};
@@ -106,7 +100,7 @@ function getCss(theme: string, fontSize: string) {
     }
 
     .footer {
-        font-family: 'Noto Sans JP, Inter', sans-serif;
+        font-family: 'Noto Sans JP', 'Inter', sans-serif;
         font-size: 50px;
         font-style: normal;
         text-align: right;
